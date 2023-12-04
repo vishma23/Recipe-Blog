@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+            text-align: center;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #e74c3c;
+            color: #ffffff;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        h2 {
+            color: #343a40;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #e74c3c;
+            color: #ffffff;
+            padding: 12px 24px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #c0392b;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #343a40;
+            color: #ffffff;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            transition: transform 0.3s;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.2);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+        <p>Have a question or feedback? We'd love to hear from you!</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Recipe Catalog</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <section>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+<footer>
+    <p><b><font size=6>Website name</font></b></p>
+    <p>Trademarks and brands are the property of their respective owners.</p>
+    <p>&copy; 2023 Your Recipe Website | Connect with us on:<br>
+        <a href="#" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="https://github.com/vishma23/Recipe-Blog/blob/main/instagram_icon.png?raw=true" target="_blank"><img src="https://github.com/vishma23/Recipe-Blog/blob/main/instagram_icon.png?raw=true" alt="Instagram"></a>
+        <a href="#" target="_blank"><img src="pinterest-icon.png" alt="Pinterest"></a>
+        <a href="#" target="_blank"><img src="google-plus-icon.png" alt="Google Plus"></a>
+    </p>
+</footer>
+
+
+</body>
+</html>
